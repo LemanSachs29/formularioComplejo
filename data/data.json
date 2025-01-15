@@ -1,0 +1,124 @@
+{
+    "profesiones": [
+        "Catador de alimentos para mascotas",
+        "consultor de nombres de bebes",
+        "Recortador de Bosáis",
+        "Cazador de pelotas de golf",
+        "Organizador profesional de armarios",
+        "Maestro de Yoga para cabras",
+        "Encantador de lombrices",
+        "Cortador de jamón",
+        "Programador"
+    ],
+    "idiomas": [
+        "Árabe",
+        "Catalán",
+        "Chino",
+        "Clingon",
+        "Élfico",
+        "Español",
+        "Euskera",
+        "Gallego",
+        "Inglés",
+        "Indú",
+        "Ruso"
+    ],
+    "Países": [
+        "España",
+        "México",
+        "Japón",
+        "Australia",
+        "Brasil",
+        "Canadá",
+        "Sudáfrica",
+        "Alemania",
+        "India",
+        "Nueva Zelanda"
+    ],
+    "Alergias": [
+    "Polen",
+    "Ácaros del polvo",
+    "Maní (cacahuate)",
+    "Leche",
+    "Mariscos",
+    "Picaduras de abeja",
+    "Gluten",
+    "Frutas cítricas",
+    "Medicamentos (penicilina, aspirina)",
+    "Látex"
+],
+"NivelesDeEstudios": [
+    "Educación Infantil",
+    "Educación Primaria",
+    "Educación Secundaria Obligatoria (ESO)",
+    "Bachillerato",
+    "Formación Profesional Básica",
+    "Grado Medio (Formación Profesional de Grado Medio)",
+    "Grado Superior (Formación Profesional de Grado Superior)",
+    "Grado Universitario",
+    "Máster Universitario",
+    "Doctorado"
+],
+"paises": [
+    {
+      "nombre": "España",
+      "id": 1
+    },
+    {
+      "nombre": "Francia",
+      "id": 2
+    },
+    {
+      "nombre": "Italia",
+      "id": 3
+    },
+    {
+      "nombre": "Alemania",
+      "id": 4
+    }
+  ],
+"provincias": [
+    {
+      "nombre": "Valencia",
+      "id": 1,
+      "id_pais": 1
+    },
+    {
+      "nombre": "Cataluña",
+      "id": 2,
+      "id_pais": 1
+    },
+    {
+      "nombre": "Provenza-Alpes-Costa Azul",
+      "id": 3,
+      "id_pais": 2
+    },
+    {
+      "nombre": "Lombardía",
+      "id": 4,
+      "id_pais": 3
+    }
+  ],
+"poblacion": [
+    {
+      "nombre": "Benimaclet",
+      "id": 1,
+      "id_provincia": 1
+    },
+    {
+      "nombre": "Sants",
+      "id": 2,
+      "id_provincia": 2
+    },
+    {
+      "nombre": "Marsella",
+      "id": 3,
+      "id_provincia": 3
+    },
+    {
+      "nombre": "Milán",
+      "id": 4,
+      "id_provincia": 4
+    }
+  ]
+}
