@@ -1,0 +1,45 @@
+1.Datos Alumno
+    nombre-alumno
+    apellidos-alumno
+    nif-alumno
+    lengua-materna-alumno
+2.Familiares asociados
+
+familiar1
+    nombre-fam1
+    apellidos-fam1
+    nif-fam1
+    profesion-fam1
+    pais-fam1
+    provincia-fam1
+    poblacion-fam1
+    lengua-materna-fam1
+    idiomas-conocidos-fam1
+
+familiar2 (opcional)
+    nombre-fam2
+    apellidos-fam2
+    nif-fam2
+    profesion-fam2
+    pais-fam2
+    provincia-fam2
+    poblacion-fam2
+    lengua-materna-fam2
+    idiomas-conocidos-fam2
+
+3. Direccion Actual
+    pais-alumno
+    provincia-alumno
+    poblacion-alumno
+    direccion-alumno
+    codigo-posta-alumno
+
+4. Datos académicos
+    colegio
+    estudios-alcanzados
+    idiomas-estudiados
+    estudios-solicitados
+
+5. Información Médica
+    alergias
+    medicacion
