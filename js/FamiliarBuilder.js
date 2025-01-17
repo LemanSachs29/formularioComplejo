@@ -1,4 +1,4 @@
-import Familiar from './familiar.js';
+import Familiar from './Familiar.js';
 export default class FamiliarBuilder {
     constructor() {
         this.reset();

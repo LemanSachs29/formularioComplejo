@@ -3,6 +3,7 @@
     apellidos-alumno
     nif-alumno
     lengua-materna-alumno
+    idiomas-conocidos-alumno
 2.Familiares asociados
 
 familiar1
@@ -32,7 +33,7 @@ familiar2 (opcional)
     provincia-alumno
     poblacion-alumno
     direccion-alumno
-    codigo-posta-alumno
+    codigo-postal-alumno
 
 4. Datos académicos
     colegio

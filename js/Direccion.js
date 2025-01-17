@@ -19,5 +19,6 @@ export default class Direccion {
         direccion: this.direccion,
         codigoPostal: this.codigoPostal
       }
+
     }
   }
