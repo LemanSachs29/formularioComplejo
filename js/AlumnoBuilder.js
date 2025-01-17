@@ -16,7 +16,7 @@ export default class AlumnoBuilder {
         this.estudiosAlcanzados = "";
         this.idiomasEstudiados = []
         this.estudiosSolicitados = "";
-        this.alergias = "";
+        this.alergias = [];
         this.medicacion = "";
     }
 
@@ -75,10 +75,15 @@ export default class AlumnoBuilder {
         return this;
     }
 
-    setAlergias(alergias){
-        this.alergias = alergias;
+    addAlergia(alergia){
+        this.alergias.push(alergia);
         return this;
     }
+
+    /* setAlergias(alergias){
+        this.alergias = alergias;
+        return this;
+    } */
 
     setMedicacion(medicacion){
         this.medicacion = medicacion;

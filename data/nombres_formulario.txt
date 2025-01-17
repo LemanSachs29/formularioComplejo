@@ -6,48 +6,48 @@
 
 
 1.Datos Alumno
-    nombre-alumno
-    apellidos-alumno
-    nif-alumno
-    lengua-materna-alumno
-    idiomas-conocidos-alumno
+    nombre-alumno obligatorio - texto
+    apellidos-alumno obligatorio - texto
+    nif-alumno obligatorio - texto
+    lengua-materna-alumno obligatorio - desplegable
+    idiomas-conocidos-alumno obligatorio - checkbox
 2.Familiares asociados
 
 familiar1
-    nombre-fam1
-    apellidos-fam1
-    nif-fam1
-    profesion-fam1
-    pais-fam1
-    provincia-fam1
-    poblacion-fam1
-    lengua-materna-fam1
-    idiomas-conocidos-fam1
+    nombre-fam1 obligatorio - texto
+    apellidos-fam1 obligatorio - texto
+    nif-fam1 obligatorio - texto
+    profesion-fam1 obligatorio - desplegable
+    pais-fam1 obligatorio - desplegable
+    provincia-fam1 obligatorio - desplegable
+    poblacion-fam1 obligatorio - desplegable
+    lengua-materna-fam1 desplegable
+    idiomas-conocidos-fam1 desplegable
 
 familiar2 (opcional)
-    nombre-fam2
-    apellidos-fam2
-    nif-fam2
-    profesion-fam2
-    pais-fam2
-    provincia-fam2
-    poblacion-fam2
-    lengua-materna-fam2
-    idiomas-conocidos-fam2
+    nombre-fam2 obligatorio - texto
+    apellidos-fam2 obligatorio - texto
+    nif-fam2 obligatorio - texto
+    profesion-fam2 obligatorio - desplegable
+    pais-fam2 obligatorio - desplegable
+    provincia-fam2 obligatorio - desplegable
+    poblacion-fam2 obligatorio - desplegable
+    lengua-materna-fam2 desplegable
+    idiomas-conocidos-fam2 desplegable
 
 3. Direccion Actual
-    pais-alumno
-    provincia-alumno
-    poblacion-alumno
-    direccion-alumno
-    codigo-postal-alumno
+    pais-alumno obligatorio - desplegable 
+    provincia-alumno obligatorio - desplegable
+    poblacion-alumno obligatorio - desplegable
+    direccion-alumno obligatorio - texto
+    codigo-postal-alumno obligatorio - texto
 
 4. Datos académicos
-    colegio-alumno
-    estudios-alcanzados
-    idiomas-estudiados-alumno
-    estudios-solicitados
+    colegio-alumno obligatorio - texto
+    estudios-alcanzados obligatorio - desplegable
+    idiomas-estudiados-alumno obligatorio - desplegable
+    estudios-solicitados obligatorio - desplegable
 
 5. Información Médica
-    alergias-alumno
-    medicacion-alumno
+    alergias-alumno checkbox
+    medicacion-alumno texto

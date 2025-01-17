@@ -15,7 +15,7 @@ export default class Director {
             .setColegioProcedencia(formData.get("colegio-alumno"))
             .setEstudiosAlcanzados(formData.get("estudios-alcanzados"))
             .setEstudiosSolicitados(formData.get("estudios-solicitados"))
-            .setAlergias(formData.get("alergias"))
+            /* .setAlergias(formData.get("alergias")) */
             .setMedicacion(formData.get("medicacion"));
 
 
@@ -30,6 +30,12 @@ export default class Director {
         let idiomasEstudiados = formData.getAll("idiomas-estudiados-alumno");
         for (let idioma of idiomasEstudiados) {
             alumno.addIdiomaEstudiado(idioma);
+        }
+        
+        //Añadir alergias
+        let alergias = formData.getAll("alergias-alumno");
+        for (let alergia of alergias) {
+            alumno.addAlergia(alergia);
         }
 
         //Creación de una dirección

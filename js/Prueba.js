@@ -31,7 +31,9 @@ miForm.append("idiomas-estudiados-alumno", "español");
 miForm.append("idiomas-estudiados-alumno", "catalán");
 miForm.append("idiomas-estudiados-alumno", "inglés");
 miForm.append("estudios-solicitados","Grado Universitario");
-miForm.append("alergias","comunismo");
+miForm.append("alergias-alumno","comunismo");
+miForm.append("alergias-alumno","perroflautas");
+miForm.append("alergias","feministas");
 miForm.append("medicacion","ninguna");
 
 let miAlumno = Director.crearAlumno(miForm, false);
