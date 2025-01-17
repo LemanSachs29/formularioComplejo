@@ -1,3 +1,5 @@
+import AlumnoBuilder from './AlumnoBuilder.js';
+
 export default class Alumno {
     constructor(builder) {
         if (!(builder instanceof AlumnoBuilder)) {

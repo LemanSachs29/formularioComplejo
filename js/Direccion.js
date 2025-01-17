@@ -1,3 +1,5 @@
+import DireccionBuilder from './DireccionBuilder.js';
+
 export default class Direccion {
     constructor(builder) {
       if (!(builder instanceof DireccionBuilder)) {

@@ -1,3 +1,4 @@
+import FamiliarBuilder from './FamiliarBuilder.js';
 export default class Familiar {
     constructor(builder) {
         if (!(builder instanceof FamiliarBuilder)) {

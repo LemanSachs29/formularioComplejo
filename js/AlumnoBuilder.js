@@ -55,7 +55,7 @@ export default class AlumnoBuilder {
         return this;
     }
 
-    setCoelgioProcedencia(colegioProcedencia){
+    setColegioProcedencia(colegioProcedencia){
         this.colegioProcedencia = colegioProcedencia;
         return this;
     }

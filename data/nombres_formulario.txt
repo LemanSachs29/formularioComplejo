@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 1.Datos Alumno
     nombre-alumno
     apellidos-alumno
@@ -36,11 +43,11 @@ familiar2 (opcional)
     codigo-postal-alumno
 
 4. Datos académicos
-    colegio
+    colegio-alumno
     estudios-alcanzados
-    idiomas-estudiados
+    idiomas-estudiados-alumno
     estudios-solicitados
 
 5. Información Médica
-    alergias
-    medicacion
+    alergias-alumno
+    medicacion-alumno
