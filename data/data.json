@@ -1,124 +1,416 @@
 {
-    "profesiones": [
-        "Catador de alimentos para mascotas",
-        "consultor de nombres de bebes",
-        "Recortador de Bosáis",
-        "Cazador de pelotas de golf",
-        "Organizador profesional de armarios",
-        "Maestro de Yoga para cabras",
-        "Encantador de lombrices",
-        "Cortador de jamón",
-        "Programador"
-    ],
-    "idiomas": [
-        "Árabe",
-        "Catalán",
-        "Chino",
-        "Clingon",
-        "Élfico",
-        "Español",
-        "Euskera",
-        "Gallego",
-        "Inglés",
-        "Indú",
-        "Ruso"
-    ],
-    "Países": [
-        "España",
-        "México",
-        "Japón",
-        "Australia",
-        "Brasil",
-        "Canadá",
-        "Sudáfrica",
-        "Alemania",
-        "India",
-        "Nueva Zelanda"
-    ],
-    "Alergias": [
-    "Polen",
-    "Ácaros del polvo",
-    "Maní (cacahuate)",
-    "Leche",
-    "Mariscos",
-    "Picaduras de abeja",
-    "Gluten",
-    "Frutas cítricas",
-    "Medicamentos (penicilina, aspirina)",
-    "Látex"
-],
-"NivelesDeEstudios": [
-    "Educación Infantil",
-    "Educación Primaria",
-    "Educación Secundaria Obligatoria (ESO)",
-    "Bachillerato",
-    "Formación Profesional Básica",
-    "Grado Medio (Formación Profesional de Grado Medio)",
-    "Grado Superior (Formación Profesional de Grado Superior)",
-    "Grado Universitario",
-    "Máster Universitario",
-    "Doctorado"
-],
-"paises": [
+  "profesiones": [
     {
-      "nombre": "España",
-      "id": 1
+      "value": "catador_alimentos_mascotas",
+      "label": "Catador de alimentos para mascotas"
     },
     {
-      "nombre": "Francia",
-      "id": 2
+      "value": "consultor_nombres_bebes",
+      "label": "Consultor de nombres de bebés"
     },
     {
-      "nombre": "Italia",
-      "id": 3
+      "value": "recortador_bonsais",
+      "label": "Recortador de Bonsáis"
     },
     {
-      "nombre": "Alemania",
-      "id": 4
+      "value": "cazador_pelotas_golf",
+      "label": "Cazador de pelotas de golf"
+    },
+    {
+      "value": "organizador_armarios",
+      "label": "Organizador profesional de armarios"
+    },
+    {
+      "value": "maestro_yoga_cabras",
+      "label": "Maestro de Yoga para cabras"
+    },
+    {
+      "value": "encantador_lombrices",
+      "label": "Encantador de lombrices"
+    },
+    {
+      "value": "cortador_jamon",
+      "label": "Cortador de jamón"
+    },
+    {
+      "value": "programador",
+      "label": "Programador"
     }
   ],
-"provincias": [
+  "idiomas": [
     {
-      "nombre": "Valencia",
-      "id": 1,
-      "id_pais": 1
+      "value": "arabe",
+      "label": "Árabe"
     },
     {
-      "nombre": "Cataluña",
-      "id": 2,
-      "id_pais": 1
+      "value": "catalan",
+      "label": "Catalán"
     },
     {
-      "nombre": "Provenza-Alpes-Costa Azul",
-      "id": 3,
-      "id_pais": 2
+      "value": "chino",
+      "label": "Chino"
     },
     {
-      "nombre": "Lombardía",
-      "id": 4,
-      "id_pais": 3
+      "value": "clingon",
+      "label": "Clingon"
+    },
+    {
+      "value": "elfico",
+      "label": "Élfico"
+    },
+    {
+      "value": "espanol",
+      "label": "Español"
+    },
+    {
+      "value": "euskera",
+      "label": "Euskera"
+    },
+    {
+      "value": "gallego",
+      "label": "Gallego"
+    },
+    {
+      "value": "ingles",
+      "label": "Inglés"
+    },
+    {
+      "value": "indu",
+      "label": "Indú"
+    },
+    {
+      "value": "ruso",
+      "label": "Ruso"
+    },
+    {
+      "value": "pobre",
+      "label": "Pobre"
     }
   ],
-"poblacion": [
+  "alergias": [
     {
-      "nombre": "Benimaclet",
+      "value": "polen",
+      "label": "Polen"
+    },
+    {
+      "value": "acaros_del_polvo",
+      "label": "Ácaros del polvo"
+    },
+    {
+      "value": "mani",
+      "label": "Maní (cacahuate)"
+    },
+    {
+      "value": "leche",
+      "label": "Leche"
+    },
+    {
+      "value": "mariscos",
+      "label": "Mariscos"
+    },
+    {
+      "value": "picaduras_de_abeja",
+      "label": "Picaduras de abeja"
+    },
+    {
+      "value": "gluten",
+      "label": "Gluten"
+    },
+    {
+      "value": "frutas_citricas",
+      "label": "Frutas cítricas"
+    },
+    {
+      "value": "medicamentos",
+      "label": "Medicamentos (penicilina, aspirina)"
+    },
+    {
+      "value": "latex",
+      "label": "Látex"
+    }
+  ],
+  "nivelesDeEstudios": [
+    {
+      "value": "educacion_infantil",
+      "label": "Educación Infantil"
+    },
+    {
+      "value": "educacion_primaria",
+      "label": "Educación Primaria"
+    },
+    {
+      "value": "educacion_secundaria_obligatoria",
+      "label": "Educación Secundaria Obligatoria (ESO)"
+    },
+    {
+      "value": "bachillerato",
+      "label": "Bachillerato"
+    },
+    {
+      "value": "formacion_profesional_basica",
+      "label": "Formación Profesional Básica"
+    },
+    {
+      "value": "grado_medio",
+      "label": "Grado Medio (Formación Profesional de Grado Medio)"
+    },
+    {
+      "value": "grado_superior",
+      "label": "Grado Superior (Formación Profesional de Grado Superior)"
+    },
+    {
+      "value": "grado_universitario",
+      "label": "Grado Universitario"
+    },
+    {
+      "value": "master_universitario",
+      "label": "Máster Universitario"
+    },
+    {
+      "value": "doctorado",
+      "label": "Doctorado"
+    }
+  ],
+  "paises": [
+    {
       "id": 1,
-      "id_provincia": 1
+      "value": "espana",
+      "label": "España"
     },
     {
-      "nombre": "Sants",
       "id": 2,
-      "id_provincia": 2
+      "value": "francia",
+      "label": "Francia"
     },
     {
-      "nombre": "Marsella",
       "id": 3,
-      "id_provincia": 3
+      "value": "italia",
+      "label": "Italia"
     },
     {
-      "nombre": "Milán",
       "id": 4,
-      "id_provincia": 4
+      "value": "alemania",
+      "label": "Alemania"
+    }
+  ],
+  "provincias": [
+    {
+      "id": 1,
+      "id_pais": 1,
+      "value": "valencia",
+      "label": "Valencia"
+    },
+    {
+      "id": 2,
+      "id_pais": 1,
+      "value": "cataluna",
+      "label": "Cataluña"
+    },
+    {
+      "id": 3,
+      "id_pais": 1,
+      "value": "andalucia",
+      "label": "Andalucía"
+    },
+    {
+      "id": 4,
+      "id_pais": 1,
+      "value": "madrid",
+      "label": "Madrid"
+    },
+    {
+      "id": 5,
+      "id_pais": 2,
+      "value": "provenza_alpes_costa_azul",
+      "label": "Provenza-Alpes-Costa Azul"
+    },
+    {
+      "id": 6,
+      "id_pais": 2,
+      "value": "normandia",
+      "label": "Normandía"
+    },
+    {
+      "id": 7,
+      "id_pais": 2,
+      "value": "bretana",
+      "label": "Bretaña"
+    },
+    {
+      "id": 8,
+      "id_pais": 2,
+      "value": "paris",
+      "label": "París"
+    },
+    {
+      "id": 9,
+      "id_pais": 3,
+      "value": "lombardia",
+      "label": "Lombardía"
+    },
+    {
+      "id": 10,
+      "id_pais": 3,
+      "value": "toscana",
+      "label": "Toscana"
+    },
+    {
+      "id": 11,
+      "id_pais": 3,
+      "value": "sicilia",
+      "label": "Sicilia"
+    },
+    {
+      "id": 12,
+      "id_pais": 3,
+      "value": "piamonte",
+      "label": "Piamonte"
+    },
+    {
+      "id": 13,
+      "id_pais": 4,
+      "value": "baviera",
+      "label": "Baviera"
+    },
+    {
+      "id": 14,
+      "id_pais": 4,
+      "value": "sajonia",
+      "label": "Sajonia"
+    },
+    {
+      "id": 15,
+      "id_pais": 4,
+      "value": "renania_del_norte_westfalia",
+      "label": "Renania del Norte-Westfalia"
+    },
+    {
+      "id": 16,
+      "id_pais": 4,
+      "value": "baden_wurtemberg",
+      "label": "Baden-Wurtemberg"
+    }
+  ],
+  "poblaciones": [
+    {
+      "id": 1,
+      "id_provincia": 1,
+      "value": "valencia_capital",
+      "label": "Valencia (Capital)"
+    },
+    {
+      "id": 2,
+      "id_provincia": 1,
+      "value": "gandia",
+      "label": "Gandía"
+    },
+    {
+      "id": 3,
+      "id_provincia": 1,
+      "value": "sagunto",
+      "label": "Sagunto"
+    },
+    {
+      "id": 4,
+      "id_provincia": 1,
+      "value": "torrent",
+      "label": "Torrent"
+    },
+    {
+      "id": 5,
+      "id_provincia": 2,
+      "value": "barcelona",
+      "label": "Barcelona"
+    },
+    {
+      "id": 6,
+      "id_provincia": 2,
+      "value": "girona",
+      "label": "Girona"
+    },
+    {
+      "id": 7,
+      "id_provincia": 2,
+      "value": "lleida",
+      "label": "Lleida"
+    },
+    {
+      "id": 8,
+      "id_provincia": 2,
+      "value": "tarragona",
+      "label": "Tarragona"
+    },
+    {
+      "id": 9,
+      "id_provincia": 3,
+      "value": "marsella",
+      "label": "Marsella"
+    },
+    {
+      "id": 10,
+      "id_provincia": 3,
+      "value": "niza",
+      "label": "Niza"
+    },
+    {
+      "id": 11,
+      "id_provincia": 3,
+      "value": "cannes",
+      "label": "Cannes"
+    },
+    {
+      "id": 12,
+      "id_provincia": 3,
+      "value": "toulon",
+      "label": "Toulon"
+    },
+    {
+      "id": 13,
+      "id_provincia": 4,
+      "value": "milano",
+      "label": "Milano"
+    },
+    {
+      "id": 14,
+      "id_provincia": 4,
+      "value": "bergamo",
+      "label": "Bérgamo"
+    },
+    {
+      "id": 15,
+      "id_provincia": 4,
+      "value": "brescia",
+      "label": "Brescia"
+    },
+    {
+      "id": 16,
+      "id_provincia": 4,
+      "value": "como",
+      "label": "Como"
+    },
+    {
+      "id": 17,
+      "id_provincia": 5,
+      "value": "marsella",
+      "label": "Marsella"
+    },
+    {
+      "id": 18,
+      "id_provincia": 5,
+      "value": "paris",
+      "label": "París"
+    },
+    {
+      "id": 19,
+      "id_provincia": 5,
+      "value": "lyon",
+      "label": "Lyon"
+    },
+    {
+      "id": 20,
+      "id_provincia": 5,
+      "value": "toulouse",
+      "label": "Toulouse"
     }
   ]
 }

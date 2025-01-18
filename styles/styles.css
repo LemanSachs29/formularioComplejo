@@ -1,0 +1,64 @@
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Roboto", serif !important; 
+}
+
+.fondo_general{
+
+    /*propuesta1 */
+    /* background-color: #f4f4f9 ; */
+    /* propuesta2 */
+    /* background-color: #fdf2e9; */
+    /* Propuesta3 */
+    background-color: #f8fafc;
+}
+
+.columna_principal{
+    /* propuesta1 */
+    /* background-color: #e0e0eb ; */
+    /* propuesta2 */
+    /* background-color: #ffe8d6; */
+    /* Propuesta3 */
+    background-color: #dbeafe;
+}
+
+.tarjetas{
+    /* propuesta1 */
+    /* background-color: #ffffff; */
+    /* propuesta2 */
+    /* background-color: #ffffff; */
+    /* Propuesta3 */
+    background-color: #ffffff;
+}
+
+.titulo_tarjeta{
+    /* propuesta1 */
+    /* color: #333333; */
+    /* propuesta2 */
+    /* color: #ff4500; */
+    /* Propuesta3 */
+    color: #1e3a8a;
+}
+
+.miBtn{
+    /* propuesta1 */
+    /* background-color: #6c757d;
+    color: #ffffff; */
+    /* propuesta2 */
+    /* background-color: #ff7f50;
+    color: #ffffff; */ 
+    /* Propuesta3 */
+    background-color: #1e3a8a;
+    color: #ffffff;
+}
+
+.miBtn:hover {
+    background-color: #ffffff !important; /* Cambia el color de fondo */
+    color: #2563eb !important; /* Cambia el color del texto */
+}
+
+.error{
+    margin-top: 5px;
+    margin-left: 5px;
+    color: red;
+}
