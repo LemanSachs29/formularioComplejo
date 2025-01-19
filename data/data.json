@@ -89,6 +89,10 @@
   ],
   "alergias": [
     {
+      "value": "comunismo",
+      "label": "Comunismo"
+    },
+    {
       "value": "polen",
       "label": "Polen"
     },
@@ -97,8 +101,8 @@
       "label": "Ácaros del polvo"
     },
     {
-      "value": "mani",
-      "label": "Maní (cacahuate)"
+      "value": "cacahuetes",
+      "label": "Cacahuetes"
     },
     {
       "value": "leche",
@@ -343,26 +347,26 @@
     {
       "id": 9,
       "id_provincia": 3,
-      "value": "marsella",
-      "label": "Marsella"
+      "value": "sevilla",
+      "label": "Sevilla"
     },
     {
       "id": 10,
       "id_provincia": 3,
-      "value": "niza",
-      "label": "Niza"
+      "value": "cordona",
+      "label": "Córdoba"
     },
     {
       "id": 11,
       "id_provincia": 3,
-      "value": "cannes",
-      "label": "Cannes"
+      "value": "granada",
+      "label": "Granada"
     },
     {
       "id": 12,
       "id_provincia": 3,
-      "value": "toulon",
-      "label": "Toulon"
+      "value": "malaga",
+      "label": "Málaga"
     },
     {
       "id": 13,
@@ -411,6 +415,270 @@
       "id_provincia": 5,
       "value": "toulouse",
       "label": "Toulouse"
+    },
+    {
+      "id": 21,
+      "id_provincia": 6,
+      "value": "rouen",
+      "label": "Rouen"
+    },
+    {
+      "id": 22,
+      "id_provincia": 6,
+      "value": "caen",
+      "label": "Caen"
+    },
+    {
+      "id": 23,
+      "id_provincia": 6,
+      "value": "le_havre",
+      "label": "Le Havre"
+    },
+    {
+      "id": 24,
+      "id_provincia": 6,
+      "value": "evreux",
+      "label": "Évreux"
+    },
+    {
+      "id": 25,
+      "id_provincia": 7,
+      "value": "rennes",
+      "label": "Rennes"
+    },
+    {
+      "id": 26,
+      "id_provincia": 7,
+      "value": "brest",
+      "label": "Brest"
+    },
+    {
+      "id": 27,
+      "id_provincia": 7,
+      "value": "quimper",
+      "label": "Quimper"
+    },
+    {
+      "id": 28,
+      "id_provincia": 7,
+      "value": "lorient",
+      "label": "Lorient"
+    },
+    {
+      "id": 29,
+      "id_provincia": 8,
+      "value": "paris",
+      "label": "París"
+    },
+    {
+      "id": 30,
+      "id_provincia": 8,
+      "value": "versailles",
+      "label": "Versalles"
+    },
+    {
+      "id": 31,
+      "id_provincia": 8,
+      "value": "boulogne_billancourt",
+      "label": "Boulogne-Billancourt"
+    },
+    {
+      "id": 32,
+      "id_provincia": 8,
+      "value": "saint_denys",
+      "label": "Saint-Denis"
+    },
+    {
+      "id": 33,
+      "id_provincia": 9,
+      "value": "milan",
+      "label": "Milán"
+    },
+    {
+      "id": 34,
+      "id_provincia": 9,
+      "value": "brescia",
+      "label": "Brescia"
+    },
+    {
+      "id": 35,
+      "id_provincia": 9,
+      "value": "como",
+      "label": "Como"
+    },
+    {
+      "id": 36,
+      "id_provincia": 9,
+      "value": "monza",
+      "label": "Monza"
+    },
+    {
+      "id": 37,
+      "id_provincia": 10,
+      "value": "florence",
+      "label": "Florencia"
+    },
+    {
+      "id": 38,
+      "id_provincia": 10,
+      "value": "pisa",
+      "label": "Pisa"
+    },
+    {
+      "id": 39,
+      "id_provincia": 10,
+      "value": "siena",
+      "label": "Siena"
+    },
+    {
+      "id": 40,
+      "id_provincia": 10,
+      "value": "lucca",
+      "label": "Lucca"
+    },
+    {
+      "id": 41,
+      "id_provincia": 11,
+      "value": "palermo",
+      "label": "Palermo"
+    },
+    {
+      "id": 42,
+      "id_provincia": 11,
+      "value": "catania",
+      "label": "Catania"
+    },
+    {
+      "id": 43,
+      "id_provincia": 11,
+      "value": "messina",
+      "label": "Messina"
+    },
+    {
+      "id": 44,
+      "id_provincia": 11,
+      "value": "siracusa",
+      "label": "Siracusa"
+    },
+    {
+      "id": 45,
+      "id_provincia": 12,
+      "value": "turin",
+      "label": "Turín"
+    },
+    {
+      "id": 46,
+      "id_provincia": 12,
+      "value": "novara",
+      "label": "Novara"
+    },
+    {
+      "id": 47,
+      "id_provincia": 12,
+      "value": "asti",
+      "label": "Asti"
+    },
+    {
+      "id": 48,
+      "id_provincia": 12,
+      "value": "cuneo",
+      "label": "Cuneo"
+    },
+    {
+      "id": 49,
+      "id_provincia": 13,
+      "value": "munich",
+      "label": "Múnich"
+    },
+    {
+      "id": 50,
+      "id_provincia": 13,
+      "value": "nuremberg",
+      "label": "Núremberg"
+    },
+    {
+      "id": 51,
+      "id_provincia": 13,
+      "value": "augsburg",
+      "label": "Augsburgo"
+    },
+    {
+      "id": 52,
+      "id_provincia": 13,
+      "value": "regensburg",
+      "label": "Ratisbona"
+    },
+    {
+      "id": 53,
+      "id_provincia": 14,
+      "value": "dresden",
+      "label": "Dresde"
+    },
+    {
+      "id": 54,
+      "id_provincia": 14,
+      "value": "leipzig",
+      "label": "Leipzig"
+    },
+    {
+      "id": 55,
+      "id_provincia": 14,
+      "value": "chemnitz",
+      "label": "Chemnitz"
+    },
+    {
+      "id": 56,
+      "id_provincia": 14,
+      "value": "zwickau",
+      "label": "Zwickau"
+    },
+    {
+      "id": 57,
+      "id_provincia": 15,
+      "value": "cologne",
+      "label": "Colonia"
+    },
+    {
+      "id": 58,
+      "id_provincia": 15,
+      "value": "dusseldorf",
+      "label": "Düsseldorf"
+    },
+    {
+      "id": 59,
+      "id_provincia": 15,
+      "value": "dortmund",
+      "label": "Dortmund"
+    },
+    {
+      "id": 60,
+      "id_provincia": 15,
+      "value": "essen",
+      "label": "Essen"
+    },
+    {
+      "id": 61,
+      "id_provincia": 16,
+      "value": "stuttgart",
+      "label": "Stuttgart"
+    },
+    {
+      "id": 62,
+      "id_provincia": 16,
+      "value": "karlsruhe",
+      "label": "Karlsruhe"
+    },
+    {
+      "id": 63,
+      "id_provincia": 16,
+      "value": "mannheim",
+      "label": "Mannheim"
+    },
+    {
+      "id": 64,
+      "id_provincia": 16,
+      "value": "freiburg",
+      "label": "Friburgo"
     }
   ]
 }
