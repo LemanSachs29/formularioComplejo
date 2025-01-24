@@ -14,11 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const formulario = document.getElementById('formulario-alumno');
 
 
-    const modal = document.getElementById('miModal');
-    const contenidoModal = document.getElementById('contenido-modal');
-    const cerrarBoton = document.getElementById('cerrarModal');
-    const cerrarSpan = document.querySelector('.cerrar');
-
     let sonDosFamiliares = false;
 
     btnAniadir.addEventListener('click', mostrarFamiliar);
@@ -292,7 +287,8 @@ document.addEventListener('DOMContentLoaded', () => {
         let campoError = document.getElementById("error-" + event.target.name);
 
         //La validación no se ejecutará si el campo está vacío
-        if ( event.target.value.length != 0 && !validarCodigoPostal(event.target.value.trim())) {
+        if (event.target.value.length != 0 && !validarDNI(event.target.value.trim())) {
+
             if (!validarDNI(event.target.value.trim())) {
                 campoError.textContent = "El campo NIF debe contener 8 dígitos y una letra mayúscula.";
             } else {
@@ -305,11 +301,15 @@ document.addEventListener('DOMContentLoaded', () => {
         //Recuperar el campo modificado
         let campoError = document.getElementById("error-" + event.target.name);
 
-        if ( event.target.value.length != 0 && !validarCodigoPostal(event.target.value.trim())) {
-            campoError.textContent = "El campo Código postal debe contener 5 dígitos";
-        } else {
-            campoError.textContent = "";
+        //La validación no se ejecutará si el cmapo está vacío
+        if (event.target.value.length != 0 && !validarCodigoPostal(event.target.value.trim())) {
+            if (!validarCodigoPostal(event.target.value.trim())) {
+                campoError.textContent = "El campo Código postal debe contener 5 dígitos";
+            } else {
+                campoError.textContent = "";
+            }
         }
+
 
     }
 
@@ -317,7 +317,6 @@ document.addEventListener('DOMContentLoaded', () => {
     function enviarFormulario(event) {
         // Prevenir el comportamiento por defecto del formulario
         event.preventDefault();
-        console.log("submit capturado")
 
         // Seleccionar el contenedor de errores generales
         const errorGeneral = document.getElementById('error-general');
