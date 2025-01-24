@@ -12,13 +12,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const nifCampoFam2 = document.getElementById('nif-fam2');
     const codPostCampo = document.getElementById('codigo-postal-alumno');
     const formulario = document.getElementById('formulario-alumno');
-    
+
 
     const modal = document.getElementById('miModal');
     const contenidoModal = document.getElementById('contenido-modal');
     const cerrarBoton = document.getElementById('cerrarModal');
     const cerrarSpan = document.querySelector('.cerrar');
-    
+
     let sonDosFamiliares = false;
 
     btnAniadir.addEventListener('click', mostrarFamiliar);
@@ -288,25 +288,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Evento blur para validar el NIF al perder el foco
     function validarDniTiempoReal(event) {
-
+        //Recuperar el campo modificado
         let campoError = document.getElementById("error-" + event.target.name);
 
-        if (!validarDNI(event.target.value.trim())) {
-            campoError.textContent = "El campo NIF debe contener 8 dígitos y una letra mayúscula.";
-        } else {
-            campoError.textContent = "";
+        //La validación no se ejecutará si el campo está vacío
+        if ( event.target.value.length != 0 && !validarCodigoPostal(event.target.value.trim())) {
+            if (!validarDNI(event.target.value.trim())) {
+                campoError.textContent = "El campo NIF debe contener 8 dígitos y una letra mayúscula.";
+            } else {
+                campoError.textContent = "";
+            }
         }
     }
 
     function validarCodigoPostalTiempoReal(event) {
-
+        //Recuperar el campo modificado
         let campoError = document.getElementById("error-" + event.target.name);
 
-        if (!validarCodigoPostal(event.target.value.trim())) {
+        if ( event.target.value.length != 0 && !validarCodigoPostal(event.target.value.trim())) {
             campoError.textContent = "El campo Código postal debe contener 5 dígitos";
         } else {
             campoError.textContent = "";
         }
+
     }
 
 
@@ -314,56 +318,56 @@ document.addEventListener('DOMContentLoaded', () => {
         // Prevenir el comportamiento por defecto del formulario
         event.preventDefault();
         console.log("submit capturado")
-    
+
         // Seleccionar el contenedor de errores generales
         const errorGeneral = document.getElementById('error-general');
-    
+
         // Inicializamos el estado de validación
         let esValido = true;
         let mensajeError = "";
-    
+
         // Validar DNI del alumno
         if (!validarDNI(nifCampoAlumno.value.trim())) {
             esValido = false;
             mensajeError += "El DNI del alumno no es válido. ";
         }
-    
+
         // Validar DNI del familiar 1
         if (!validarDNI(nifCampoFam1.value.trim())) {
             esValido = false;
             mensajeError += "El DNI del familiar 1 no es válido. ";
         }
-    
+
         // Validar DNI del familiar 2 (opcional: solo si tiene contenido)
         if (nifCampoFam2.value.trim() && !validarDNI(nifCampoFam2.value.trim())) {
             esValido = false;
             mensajeError += "El DNI del familiar 2 no es válido. ";
         }
-    
+
         // Validar código postal
         if (!validarCodigoPostal(codPostCampo.value.trim())) {
             esValido = false;
             mensajeError += "El código postal no es válido.";
         }
-    
+
         // Mostrar mensaje de error si hay campos inválidos
         if (!esValido) {
             errorGeneral.textContent = mensajeError;
             return; // Salimos de la función si hay errores
         }
-    
+
         // Si todo es válido, procesar el formulario
         errorGeneral.textContent = ""; // Limpiamos el mensaje de error
 
         const formData = new FormData(formulario);
-    
+
         // Crear el objeto alumno usando la clase Director
         const miAlumno = Director.crearAlumno(formData, sonDosFamiliares);
         console.log(miAlumno.details);
-        
+
         mostrarMensajeExito();
     }
-    
+
     function mostrarMensajeExito() {
         // Crear la estructura de la ventana modal
         const modal = document.createElement('div');
@@ -377,27 +381,27 @@ document.addEventListener('DOMContentLoaded', () => {
                 <button id="cerrarModal" class="btn">Cerrar</button>
             </div>
         `;
-    
+
         // Insertar la ventana modal en el body
         document.body.appendChild(modal);
-    
+
         // Mostrar la ventana modal
         modal.style.display = 'block';
-    
+
         // Funcionalidad para cerrar la ventana modal
         const cerrarBoton = document.getElementById('cerrarModal');
         const cerrarSpan = modal.querySelector('.cerrar');
-    
+
         cerrarBoton.addEventListener('click', () => {
             modal.style.display = 'none';
             modal.remove(); // Eliminar la ventana modal del DOM
         });
-    
+
         cerrarSpan.addEventListener('click', () => {
             modal.style.display = 'none';
             modal.remove();
         });
-    
+
         window.addEventListener('click', (event) => {
             if (event.target === modal) {
                 modal.style.display = 'none';
@@ -405,5 +409,5 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
-    
+
 });
